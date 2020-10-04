@@ -1,51 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | [Challenge Name Here]</title>
+  <link rel="stylesheet" href="./styles.css">
+  <title>Frontend Mentor | Chat App CSS Illustration</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+      width: 100%;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
 </head>
+
 <body>
 
-  Samuel Green
-  Available to Walk
+  <main>
+    <section class="phone-wrapper">
 
-  That sounds great. I’d be happy with that.
+      <div class="phone">
+        <div class="heading">
+          <img class="arrow" src="./images/iconmonstr-arrow-64.svg" alt="arrow" />
+          <div class="img-container">
+            <img src="./images/avatar.jpg" alt="avatar" />
+          </div>
+          <h1>
+            Samuel Green
+            <span>Available To Walk</span>
+          </h1>
+          <img class="menu" src="./images/iconmonstr-menu-11.svg" alt="arrow" />
+        </div>
 
-  Could you send over some pictures of your dog, please?
 
-  Here are a few pictures. She’s a happy girl!
+        <ul>
+          <li class="response">That sounds great. I’d be happy to discuss more.</li>
+          <li class="response">Could you send over some pictures of your dog, please?</li>
+          <li>
+            <ul class="dog-container">
+              <li><img src="./images/dog-image-1.jpg" alt="dog" /></li>
+              <li><img src="./images/dog-image-2.jpg" alt="dog" /></li>
+              <li><img src="./images/dog-image-3.jpg" alt="dog" /></li>
+            </ul>
+          </li>
+          <li class="send">Here are a few pictures. She’s a happy girl!</li>
+          <li class="send">Can you make it?</li>
+          <li class="response">She looks so happy! The time we discussed works. How long shall I take her out for?
+          </li>
+          <li class="suggested">
+            30 minute walk
+            <span class="price">$29</span></li>
+          <li class="suggested">1 hour walk
+            <span class="price">$49</span></li>
+        </ul>
+        <div class="textbox">
+          Type a message…
+          <div class="submit-button">
+            <img src="./images/iconmonstr-arrow-63.svg" alt="arrow" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="details">
+      <h1>Simple booking</h1>
 
-  Can you make it?
+      <p>Stay in touch with our dog walkers through the chat interface. This makes it easy to
+        discuss arrangements and make bookings. Once the walk has been completed you can rate
+        your walker and book again all through the chat.</p>
+    </section>
+  </main>
 
-  She looks so happy! The time we discussed works. How long shall I take her out for?
-
-  30 minute walk
-  $29
-
-  1 hour walk
-  $49
-
-  Type a message…
-
-  Simple booking
-
-  Stay in touch with our dog walkers through the chat interface. This makes it easy to 
-  discuss arrangements and make bookings. Once the walk has been completed you can rate 
-  your walker and book again all through the chat.
-  
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Your Name Here</a>.
   </div>
 </body>
+
 </html>
